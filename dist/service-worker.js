@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-double-music-player/precache-manifest.62e65a0d23cd3f86f149807567c26532.js"
+  "/vue-double-music-player/precache-manifest.176e7a8b8f8e51f14a6cb667340c5b78.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-double-music-player"});

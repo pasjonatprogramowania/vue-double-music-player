@@ -64,6 +64,7 @@ export default {
       await getYoutubeTitle(id, (e, t) => {
         if (e) console.error(e);
         this.addNewVideoToLocalStorage(t);
+        this.fetchWachedVideos();
       });
     },
     addNewVideoToLocalStorage(t) {
